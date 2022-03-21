@@ -35,3 +35,17 @@ This is called imperitive approch . When we write all instruction in javascript
 * A component can return only 1 root element so if we want to return more we must wrap them around a duv element.
 
 ![kuchbhi](Image/Screenshot%20(270).png)
+
+
+## Props
+Props are just attributes of components that we build in .js file
+
+* Props stand for property
+  
+* Props allows you to make your component reusable and is one of the key feature that react has to offer
+  
+* We use props so that we can pass data into our components dynamically to make them configurable and reusable
+  
+
+## Splitting Components Into Mutliple Components
+  
