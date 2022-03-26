@@ -206,3 +206,13 @@ Pattern to study are as follow:-
 5. Observer
 6. Mediator
 7. State
+
+
+# Callbacks
+Callback were introduced to prevent bottle necking that came with the 
+synchronous javascript code but callbacks itself has lot of problems which are:-
+
+* Callback Hell:- nested callbacks are difficult to comprihend
+* Difficult to reason about because when complexity increases it is      difficult to predict the output.
+* Inversion of control:- turning your control to something else
+* 
