@@ -215,4 +215,11 @@ synchronous javascript code but callbacks itself has lot of problems which are:-
 * Callback Hell:- nested callbacks are difficult to comprihend
 * Difficult to reason about because when complexity increases it is      difficult to predict the output.
 * Inversion of control:- turning your control to something else
-* 
+  
+  
+# Promises
+
+A promise is simply javascript object with properties and methods.
+* Represent the eventual completion of an asynchronous operation.
+* Provides a resulting value
+* Chainning takes place in promises
