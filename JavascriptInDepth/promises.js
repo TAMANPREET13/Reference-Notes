@@ -1,7 +1,14 @@
-let promise = asyncFunction();
-
-promise.then(function(val) {
-    console.log("Yeah!!" + val);
+let a = new Promise(function (resolve, reject) {
+  setTimeout(function () {
+    reject("done");
+  }, 4000);
 });
-
-console.log("this code is asynchronous");
+a.then(
+  function (val) {
+    console.log(val);
+  },
+  function (val) {
+    console.log("rejected " + val);
+  }
+);
+console.log("see this is async code");
