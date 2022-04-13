@@ -223,3 +223,27 @@ A promise is simply javascript object with properties and methods.
 * Represent the eventual completion of an asynchronous operation.
 * Provides a resulting value
 * Chainning takes place in promises
+
+
+
+# Closures
+
+```
+const myName = "tamanpreet";
+
+function printName() {
+  console.log(myName);
+}
+
+printName();
+
+```
+* the above is an example of closure where we can excess the global variable inside a function.
+
+
+# Higher order function
+A higher order function is a function that either:
+(a) Accepts a function as arguments
+(b) returns a function
+
+
