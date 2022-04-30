@@ -29,7 +29,7 @@ const sayHello = function () {
 };
 const myFunc = sayHello();
 myFunc();
-// Hello!
+
 
 //FOR EACH
 let myColors = ["red", "orange", "green", "blue"];
@@ -39,3 +39,5 @@ myColors.forEach(saySomething);
 function saySomething(color) {
   document.write("The color " + color + " is a great color. <br>");
 }
+
+//
