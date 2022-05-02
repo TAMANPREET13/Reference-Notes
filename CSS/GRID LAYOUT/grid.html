@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grids</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /*
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+            */
+            grid-gap: 1em;
+        }
+        
+        .wrapper>div {
+            background: #eee;
+            padding: 1em;
+        }
+        
+        .wrapper>div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa nemo harum eaque a illum voluptate facilis fuga numquam architecto! Nobis numquam aliquid ad nam id fugit illo minus adipisci, neque, pariatur aut officiis veniam eveniet excepturi sunt rem
+            ut? Voluptate maiores quia soluta dolorum quo, iste quidem, vel minus aut sequi eligendi nostrum magnam, assumenda nemo repellendus? Accusantium, cupiditate autem, libero temporibus distinctio corrupti laudantium maiores iusto cum inventore
+            laboriosam? Autem molestiae impedit dolorum hic quaerat libero similique fugit corrupti!
+
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quis labore animi nemo provident suscipit odit, possimus, reiciendis eveniet sunt ipsum neque autem velit laboriosam facilis distinctio deleniti, quae perspiciatis.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa nemo harum eaque a illum voluptate facilis fuga numquam architecto! Nobis numquam aliquid ad nam id fugit illo minus adipisci, neque, pariatur aut officiis veniam eveniet excepturi sunt rem
+            ut? Voluptate maiores quia soluta dolorum quo, iste quidem, vel minus aut sequi eligendi nostrum magnam, assumenda nemo repellendus? Accusantium, cupiditate autem, libero temporibus distinctio corrupti laudantium maiores iusto cum inventore
+            laboriosam? Autem molestiae impedit dolorum hic quaerat libero similique fugit corrupti!
+
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quis labore animi nemo provident suscipit odit, possimus, reiciendis eveniet sunt ipsum neque autem velit laboriosam facilis distinctio deleniti, quae perspiciatis.
+        </div>
+    </div>
+</body>
+
+</html>
