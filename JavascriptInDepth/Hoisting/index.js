@@ -17,7 +17,7 @@ const getName = () => {
 };
 
 //Hoisting - It is phenomena in javascript through which we can access the function
-// and variables even before intializing it.
+// and variables even before intializing it and we can acess it without any error.
 
 // Before javascript execute the above code it will provide value of undefiend to variable
 // and actual copy of function in memory allocation.
