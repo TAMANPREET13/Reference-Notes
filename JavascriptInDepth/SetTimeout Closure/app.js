@@ -1,11 +1,11 @@
-// function x() {
-//   for (var i = 1; i <= 5; i++) {
-//     setTimeout(function () {
-//       console.log(i);
-//     }, i * 1000);
-//   }
-//   console.log("hi my name taman");
-// }
+function x() {
+  for (var i = 1; i <= 5; i++) {
+    setTimeout(function () {
+      console.log(i);
+    }, i * 1000);
+  }
+  console.log("hi my name taman");
+}
 // x();
 
 // The above code will print 6  5 times because all the i's will be pointing towards
@@ -40,4 +40,4 @@ function x() {
   }
   console.log("Hi my name is taman");
 }
-x();
+// x();
