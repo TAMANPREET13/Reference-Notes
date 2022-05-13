@@ -70,6 +70,11 @@
                     </h1>
                     <p class="lead my-4 text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+                    <!-- open sidebar/ offcanvas -->
+                    <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button"
+                        aria-controls="sidebar">
+                        Explore my other books
+                    </a>
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
                     <!-- tooltip  -->
@@ -482,6 +487,40 @@
 
 
     <!-- modal itself -->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio ab dolorum deleniti,
+                        voluptatum culpa a. Quod voluptatem vitae nisi. Ullam iste ratione quibusdam dignissimos
+                        voluptatem atque corporis! Suscipit, molestiae repellendus.</p>
+                    <label for="modal-email" class="form-label">Your email address:</label>
+                    <input type="email" class="form-control" id="modal-email" placeholder="e.g. mario@example.com">
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">My Other Books</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti unde quasi ea vitae officiis suscipit,
+                exercitationem ipsam ut ad magnam temporibus facilis rem at reprehenderit excepturi veritatis distinctio
+                et eius!</p>
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
