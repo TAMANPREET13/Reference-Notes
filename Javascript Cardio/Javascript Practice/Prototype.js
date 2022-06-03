@@ -8,4 +8,9 @@ let obj = {
   },
 };
 
-function fun() {}
+let obj2 = {
+  name: "Aditya",
+};
+
+//Never do this
+obj2.__proto__ = obj;
