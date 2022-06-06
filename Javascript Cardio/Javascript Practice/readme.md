@@ -6,3 +6,4 @@
 
 > When we declare a function, variable, arr , obj in javascript it get access to all the hidden properties and methods of javascript these come via prototypes.
 
+## EVENT LOOP
